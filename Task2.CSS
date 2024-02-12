@@ -1,0 +1,60 @@
+body{
+    background-color: yellow;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    height:100px;
+}
+.colour
+{
+    padding:10px;
+    background-color:white;
+    
+}
+header
+{
+    color:yellow;
+   background-color: black;
+   border-style:calc() ;
+   border-color: black;
+   height:140px;
+   display: flex;
+   align-items: center;
+   
+}
+.head
+{
+    margin-left: auto;
+}
+.middle
+{
+    border-style: solid;
+    color: white;
+    background-color: black;
+
+}
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding:0;   
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border:1px solid white;
+  }
+
+
+  
+
+  

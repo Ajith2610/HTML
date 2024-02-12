@@ -1,0 +1,37 @@
+.container {
+    background-color:#f7dfdf;
+    height: 100%;
+    width:100%;
+    border-collapse: separate;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;  
+  }
+.left 
+{
+       flex: 15%;
+  }
+#child
+ {
+display: flex;
+flex-direction:column ;
+flex: 70%;
+}  
+.top
+ {
+border-bottom:5px solid white;
+border-left:10px solid white; 
+border-right:10px solid white;
+height:50%;
+}
+.bottom
+ {
+border-top:5px solid white;
+border-left:10px solid white; 
+border-right:10px solid white;
+height:50%;
+}
+.right 
+{
+    flex: 15%;
+  }
